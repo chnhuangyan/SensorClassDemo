@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context="edu.gsu.httpscs.sensorclassdemo.SensorActivity">
+
+
+    <Button
+        android:id="@+id/sensor_bt_read"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:textSize="36sp"
+        android:text="Read Location"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/sensor_tv_data"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="No Data"/>
+
+    <Button
+        android:id="@+id/sensor_bt_save"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:textSize="36sp"
+        android:text="Save to File"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/sensor_bt_service"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:textSize="36sp"
+        android:text="Start Service"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
